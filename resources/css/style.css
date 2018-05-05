@@ -21,7 +21,7 @@ header {
 .sitecontainer {
   display: flex;
   width: 960px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 /* logo and nav containers */
@@ -35,6 +35,8 @@ header {
 
 .logotext {
   text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 .colmar {
@@ -50,13 +52,14 @@ header {
   align-items: center;
   justify-content: center;
   height: 100%;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 
 .navcontainer a {
   text-decoration: none;
+  letter-spacing: 1.5px;
   color: black;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 nav {
@@ -68,7 +71,7 @@ display: inline-flex;
 align-items: center;
 justify-content: center;
 height: 4rem;
-border-right: 16px solid cadetblue;
+border-right: 16px solid red;
 }
 
 nav ul li:last-child {
