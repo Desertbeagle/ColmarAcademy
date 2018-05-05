@@ -7,10 +7,14 @@ html {
 
 header {
   display: flex;
+  position: fixed;
+  top: 0;
   justify-content: space-between;
   align-items: center;
   height: 4rem;
-  width: 100%;
+  width: 960px;
+  border: 1px solid pink;
+  z-index: 5;
 }
 
 .pagecontainer {
@@ -21,7 +25,9 @@ header {
 .sitecontainer {
   display: flex;
   width: 960px;
-  /* border: 1px solid black; */
+  height: 8000px;
+  padding-top: 4rem;
+  border: 1px solid black;
 }
 
 /* logo and nav containers */
@@ -29,14 +35,23 @@ header {
 .logocontainer {
   display: flex;
   align-items: center;
-  height: 2rem;
+  height: 100%;
   padding-left: 1rem;
+  border: 1px solid red;
+}
+.logocontainer img {
+  height: 4rem;
+  width: auto;
+  /* padding-top: .5rem; */
 }
 
 .logotext {
   text-transform: uppercase;
   font-weight: 600;
+  font-size: 1.5rem;
   letter-spacing: 2px;
+  /* height: 2rem; */
+
 }
 
 .colmar {
