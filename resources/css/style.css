@@ -4,6 +4,7 @@
 html {
   font-size: 16px;
   font-family: Helvetica;
+  /* font-family: 'Libre Baskerville', serif; */
 }
 
 header {
@@ -22,7 +23,7 @@ header {
   display: flex;
 
   justify-content: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .sitecontainer {
@@ -30,7 +31,7 @@ header {
   width: 960px;
   height: auto;
   padding-top: 4rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
 }
 
@@ -116,7 +117,7 @@ nav ul li:last-child {
   display: flex;
   width: 60%;
   height: auto;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
 }
 .heroimage img {
   width: 100%;
@@ -130,8 +131,9 @@ nav ul li:last-child {
   justify-content: center;
   align-items: flex-start;
   height: 27rem;
-  width: 40%;
-  border: 1px solid purple;
+  width: 30%;
+  /* border: 1px solid purple; */
+  margin-left: -6rem;
 
 }
 .herotext h1 {
@@ -143,4 +145,27 @@ nav ul li:last-child {
 .herotext h2 {
   font-size: 1.5rem;
   color:  #bebbbb;
+  margin-bottom: 1rem;
+}
+
+.herobutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
+  background-color: black;
+  color: #bebbbb;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  /* border-radius: 50%; */
+  box-shadow: 2px 2px 1px #bebbbb;
+
+}
+.herobutton a {
+  text-decoration: none;
+  color: #bebbbb;
+  font-weight: 600;
+  letter-spacing: 1.5px;
 }
