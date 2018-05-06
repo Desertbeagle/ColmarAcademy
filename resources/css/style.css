@@ -97,6 +97,8 @@ align-items: center;
 justify-content: center;
 height: 4rem;
 border-right: 16px solid #73173e;
+padding-right: 0.5rem;
+padding-left: 0.5rem;
 }
 
 nav ul li:last-child {
