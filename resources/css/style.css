@@ -13,7 +13,7 @@ header {
   align-items: center;
   height: 4rem;
   width: 960px;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   z-index: 5;
 }
 
@@ -27,7 +27,7 @@ header {
   width: 960px;
   height: 8000px;
   padding-top: 4rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 /* logo and nav containers */
@@ -37,11 +37,15 @@ header {
   align-items: center;
   height: 100%;
   padding-left: 1rem;
-  border: 1px solid red;
+  border-top: 3px solid #920e40;
+  border-bottom: 3px solid #920e40;
 }
 .logocontainer img {
-  height: 4rem;
+  height: 3rem;
   width: auto;
+  padding-top: .5rem;
+  /* padding-top: .3rem;  */
+  /* width: 3rem; */
   /* padding-top: .5rem; */
 }
 
@@ -55,11 +59,13 @@ header {
 }
 
 .colmar {
-  color: black;
+  color: Grey;
+  font-size: 1.5rem;
 }
 
 .academy {
-  color: red;
+  color: #920e40;
+  /* text-shadow: 2px 2px #000000; */
 }
 
 .navcontainer {
@@ -86,7 +92,7 @@ display: inline-flex;
 align-items: center;
 justify-content: center;
 height: 4rem;
-border-right: 16px solid red;
+border-right: 16px solid #920e40;
 }
 
 nav ul li:last-child {
