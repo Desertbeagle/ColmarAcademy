@@ -53,8 +53,8 @@ header {
   font-weight: 600;
   font-size: 1.5rem;
   letter-spacing: 2px;
-  border-top: 3px solid #CB4C78;
-  border-bottom: 3px solid #CB4C78;
+  border-top: 3px solid #ad0000;
+  border-bottom: 3px solid #ad0000;
   /* height: 2rem; */
 
 }
@@ -65,7 +65,7 @@ header {
 }
 
 .academy {
-  color: #CB4C78;
+  color: #ad0000;
   /* text-shadow: 2px 2px #000000; */
 }
 
@@ -93,7 +93,7 @@ display: inline-flex;
 align-items: center;
 justify-content: center;
 height: 4rem;
-border-right: 16px solid #CB4C78;
+border-right: 16px solid #ad0000;
 }
 
 nav ul li:last-child {
