@@ -144,11 +144,13 @@ nav ul li:last-child {
   font-weight: bold;
   color: #bebbbb;
   margin-bottom: 1rem;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
 }
 .herotext h2 {
   font-size: 1.5rem;
   color:  #bebbbb;
   margin-bottom: 1rem;
+  /* text-shadow: 4px 4px 2px rgba(0, 0, 0, 1); */
 }
 
 .herobutton {
