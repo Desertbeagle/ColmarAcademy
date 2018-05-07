@@ -185,7 +185,7 @@ nav ul li:last-child {
 }
 
 
-/* Feature One Container */
+/* Information Container */
 
 
 .information {
@@ -278,6 +278,7 @@ nav ul li:last-child {
   /* text-align: left; */
   width: 60%;
   height: 10.3rem;
+
   padding-top: 2rem;
 
 
@@ -297,3 +298,5 @@ nav ul li:last-child {
   color: rgba(115, 23, 62, .8);
   font-size: .8rem;
 }
+
+/* Course section */
