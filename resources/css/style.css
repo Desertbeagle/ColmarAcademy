@@ -326,3 +326,9 @@ margin-bottom: 8px;
 .wrapper.three {
   background-color: white;
 }
+.wrapper.one h1 {
+  padding-top: 2rem;
+}
+.wrapper.two h1 {
+  padding-top: 1.4rem;
+}
