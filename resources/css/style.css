@@ -257,6 +257,9 @@ nav ul li:last-child {
   flex-wrap: wrap;
   flex-direction: column;
   width: 40%;
+  background-color: rgba(115, 23, 62, .2);
+  /* background-color: black; */
+  /* border-bottom: 1px solid black; */
 
 
 
