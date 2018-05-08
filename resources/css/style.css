@@ -295,7 +295,7 @@ margin-bottom: 8px;
   text-decoration: none;
   color: rgba(115, 23, 62, 1)
 }
-.wrapper {
+.infowrapper {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -304,7 +304,7 @@ margin-bottom: 8px;
   height: auto;
 
 }
-.wrapper img {
+.infowrapper img {
   width: 35%;
   height: auto;
   padding-left: 1rem;
@@ -313,27 +313,27 @@ margin-bottom: 8px;
 
 
 }
-.wrapper.one img {
+.infowrapper.one img {
   padding-top: 2rem;
   padding-right: 1rem;
 }
-.wrapper.two img {
+.infowrapper.two img {
   padding-top: 2rem;
   padding-bottom: 1rem;
   padding-right: 1rem;
 }
-.wrapper.three img {
+.infowrapper.three img {
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-right: 1rem;
 
 }
-.wrapper.three {
+.infowrapper.three {
   background-color: white;
 }
-.wrapper.one h1 {
+.infowrapper.one h1 {
   padding-top: 2rem;
 }
-.wrapper.two h1 {
+.infowrapper.two h1 {
   padding-top: 1.4rem;
 }
