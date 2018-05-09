@@ -151,7 +151,8 @@ nav ul li:last-child {
 .herotext h1 {
   font-size: 2rem;
   font-weight: bold;
-  color: #bebbbb;
+  /* color: #bebbbb; */
+  color: rgba(255, 255, 255, .9);
   margin-bottom: 1rem;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
@@ -179,7 +180,8 @@ nav ul li:last-child {
 }
 .herobutton a {
   text-decoration: none;
-  color: #bebbbb;
+  /* color: #bebbbb; */
+  color: rgba(255, 255, 255, .9);
   font-weight: 600;
   letter-spacing: 1.5px;
 }
@@ -232,10 +234,11 @@ nav ul li:last-child {
 .infotext h1 {
   font-size: 2rem;
   font-weight: bold;
-  color: #black;
+  /* color: #black; */
+  color: rgba(255, 255, 255, 1);
   margin-bottom: 1rem;
   margin-left: 1.5rem;
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 
 }
 .infotext h2 {
@@ -293,7 +296,7 @@ margin-bottom: 8px;
 }
 .infoimg-small-text a {
   text-decoration: none;
-  color: rgba(115, 23, 62, 1)
+  color: rgba(115, 23, 62, 1);
 }
 .infowrapper {
   display: flex;
@@ -332,7 +335,10 @@ margin-bottom: 8px;
   background-color: white;
 }
 .infowrapper.one h1 {
-  padding-top: 2rem;
+padding-top: 2rem;
+color: rgba(0, 0, 0, 1);
+/* text-shadow: .5px .5px 1px rgba(255, 255, 255, 1); */
+
 }
 .infowrapper.two h1 {
   padding-top: 1.4rem;
@@ -357,9 +363,10 @@ margin-bottom: 8px;
   padding-bottom: 2rem;
   font-size: 2rem;
   font-weight: bold;
-  color: #black;
-  /* text-shadow: 2px 2px 2px rgba(115, 23, 62, .5); */
+  color: rgba(0, 0, 0, 1);
   text-shadow: 2px 2px 2px rgba(255, 255, 255, 1);
+  /* text-shadow: 2px 2px 2px rgba(115, 23, 62, .5); */
+  /* text-shadow: 2px 2px 2px rgba(255, 255, 255, 1); */
   text-align: center;
 
 }
