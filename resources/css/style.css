@@ -369,3 +369,29 @@ margin-bottom: 8px;
   height: 40rem;
   border: 1px solid black;
 }
+.courseitem {
+  border: 1px solid purple;
+  width: 30%;
+  height: auto;
+
+}
+.courseitem img {
+  width: 100%;
+  height: auto;
+
+
+}
+.courseitemtext {
+  width: 30%;
+  /* border: 1px solid black; */
+
+}
+.courseitemtext h1 {
+  font-weight: bold;
+
+
+}
+.courseitemtext h2 {
+
+
+}
