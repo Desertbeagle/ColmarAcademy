@@ -383,7 +383,8 @@ margin-bottom: 8px;
   flex-wrap: wrap;
   width: 100%;
 
-  height: 32.5rem;
+  /* height: 32.5rem; */
+  height: 33.5rem;
   padding-left: 4.5rem;
   padding-right: 4.5rem;
   /* border: 5px solid black; */
@@ -395,6 +396,7 @@ margin-bottom: 8px;
   /* border: 1px solid purple; */
   width: 30%;
   height: auto;
+  background-color: white;
 
 }
 .courseitem img {
@@ -418,9 +420,14 @@ margin-bottom: 8px;
 }
 .courseitem.one {
   padding-bottom: .75rem;
+  margin-bottom: 1rem;
+}
+.courseitem.two {
+  margin-bottom: 1rem;
 }
 .courseitem.three {
   padding-bottom: .75rem;
+  margin-bottom: 1rem;
 }
 .courseitem h2 {
   padding-bottom: .5rem;
@@ -436,6 +443,7 @@ margin-bottom: 8px;
 }
 .One {
   order: 1;
+
 
 
 }
