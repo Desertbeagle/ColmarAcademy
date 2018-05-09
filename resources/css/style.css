@@ -194,7 +194,7 @@ nav ul li:last-child {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 30.55rem;
+  height: 34.5rem;
   width: 60%;
   min-width: 100%;
   background-color: #bebbbb;
@@ -214,7 +214,7 @@ nav ul li:last-child {
 .infoimg-large img {
   width: 100%;
   padding: 2rem 1.5rem;
-  height: 20rem;
+  height: auto;
   /* border: 2px dotted white; */
 
 
