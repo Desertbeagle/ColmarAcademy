@@ -235,7 +235,7 @@ nav ul li:last-child {
   color: #black;
   margin-bottom: 1rem;
   margin-left: 1.5rem;
-  text-shadow: 2px 2px 2px rgba(255, 255, 255, 1);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
 
 }
 .infotext h2 {
@@ -347,7 +347,8 @@ margin-bottom: 8px;
   align-items: center;
   width: 100%;
   min-width: 100%;
-  border: 1px solid pink;
+  background-color: rgba(115, 23, 62, .1);
+  /* border: 1px solid pink; */
 }
 .courseheader {
   width: 100%;
@@ -357,7 +358,8 @@ margin-bottom: 8px;
   font-size: 2rem;
   font-weight: bold;
   color: #black;
-  text-shadow: 2px 2px 2px rgba(115, 23, 62, .5);
+  /* text-shadow: 2px 2px 2px rgba(115, 23, 62, .5); */
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 1);
   text-align: center;
 
 }
@@ -381,14 +383,16 @@ margin-bottom: 8px;
   flex-wrap: wrap;
   width: 100%;
 
-  height: 45rem;
+  height: 32.5rem;
   padding-left: 4.5rem;
   padding-right: 4.5rem;
-  border: 1px solid black;
+  /* border: 5px solid black; */
   /* background-color: rgba(0, 0, 0, .8); */
 }
 .courseitem {
-  border: 1px solid purple;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid purple; */
   width: 30%;
   height: auto;
 
@@ -401,21 +405,56 @@ margin-bottom: 8px;
 
 }
 .courseitemtext {
+  /* display: flex; */
   width: 100%;
   /* border: 1px solid black; */
 
 }
-.courseitemtext h3 a {
-  text-decoration: none;
-}
+
 .courseitem h1 {
   font-weight: bold;
   margin-bottom: .5rem;
 
 }
+.courseitem.one {
+  padding-bottom: .75rem;
+}
+.courseitem.three {
+  padding-bottom: .75rem;
+}
 .courseitem h2 {
+  padding-bottom: .5rem;
+  font-weight: 500;
+  font-size: .8rem;
+  text-transform: uppercase;
 
 }
 .courseitem h3 {
+  font-size: 0.8rem;
+  padding-bottom: 1.5rem;
+
+}
+.One {
+  order: 1;
+
+
+}
+.two {
+  order: 3;
+
+}
+.three {
+  order: 5;
+
+}
+.four {
+order: 2;
+}
+.five {
+  order: 4;
+
+}
+.six {
+  order: 6;
 
 }
