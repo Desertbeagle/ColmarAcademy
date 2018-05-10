@@ -18,6 +18,9 @@ header {
   z-index: 5;
   background-color: white;
 }
+.mobileheader {
+  display:none;
+}
 
 .pagecontainer {
   display: flex;
@@ -713,4 +716,37 @@ Footer {
     width: 85%;
   }
 } */
-@media only screen and (max-width: 910px)
+@media only screen and (max-width: 910px) {
+  .sitecontainer {
+  width: 100%;
+  max-width: 100%;
+}
+  header {
+    width: 100%;
+}
+.logocontainer {
+  display: none;
+}
+.navcontainer {
+  display: none;
+}
+  .mobileheader {
+  display: flex;
+  flex: 1;
+  height: 4rem;
+
+  width: 100%;
+  border: 1px solid black;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.mobileheaderimages {
+  display: flex;
+  /* flex: 1 ; */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+
+}
