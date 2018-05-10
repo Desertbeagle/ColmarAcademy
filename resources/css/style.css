@@ -662,3 +662,49 @@ Footer {
   text-decoration: none;
   color: rgba(115, 23, 62, 1);
 }
+@media only screen and (min-width: 1600px) {
+  header {
+    width: 100%;
+  }
+  .sitecontainer {
+    width: 100%;
+    max-width: 100%;
+  }
+  .herocontainer {
+    height: 50rem;
+  }
+.herotext {
+  position: relative;
+  top: 8rem;
+}
+  .information {
+    height: 55rem;
+
+  }
+  .infotext h2 {
+    margin-right: 1.5rem;
+  }
+
+  .coursecontainer {
+    height: 50rem;
+
+  }
+  .courseitem.two h3 {
+    padding-bottom: 2.2rem;
+  }
+  .courseitem.three {
+    /* padding-bottom: 1.75rem; */
+    margin-bottom: 0rem;
+  }
+  .courseitem.six {
+    margin-top: 1rem;
+  }
+  .courseitem.six img {
+    padding-top: 0rem;
+  }
+  .thesis {
+    height: 50rem;
+  }
+
+
+}
