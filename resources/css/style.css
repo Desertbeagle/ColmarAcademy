@@ -708,3 +708,9 @@ Footer {
 
 
 }
+/* @media only screen and (max-width: 980px) {
+  header {
+    width: 85%;
+  }
+} */
+@media only screen and (max-width: 910px)
