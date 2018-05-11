@@ -721,6 +721,9 @@ Footer {
   width: 100%;
   max-width: 100%;
 }
+
+/* Header and nav */
+
   header {
     width: 100%;
 }
@@ -748,5 +751,51 @@ Footer {
   width: 100%;
 
 }
+
+/* Hero Section */
+
+.herocontainer {
+  height: auto;
+  min-height: 18%;
+  flex-wrap: nowrap;
+
+
+}
+.heroimage {
+  width: 100%;
+}
+.heroimage img {
+  padding: 0rem;
+  width: 100%;
+  height: 10%;
+}
+.herotext {
+  width: 100%;
+  height: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  justify-content: flex-start;
+  margin-left: 0rem;
+}
+.herotext h2 {
+  margin-bottom: 1.5rem;
+}
+.herobutton {
+  margin-bottom: 0rem;
+
+  min-height: 3rem;
+}
+
+/* information section */
+.infoimg-large {
+  display: none;
+}
+.infotext {
+  display: none;
+}
+
+
 
 }
