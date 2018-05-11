@@ -838,6 +838,10 @@ Footer {
 
 
 
+
+}
+.infowrapper.two img {
+ padding-top: 1rem;
 }
 .infoimg-small-text {
   width: 100%;
@@ -877,6 +881,9 @@ background-color: white;
   padding-top: 1.5rem;
 
 }
+.infowrapper.one h1 {
+    padding-top: 2.5rem;
+  }
 
 /* Course Section */
 
