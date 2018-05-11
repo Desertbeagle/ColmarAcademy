@@ -6,6 +6,8 @@ html {
   font-family: Helvetica;
   -webkit-text-size-adjust: 100%;
   /* font-family: 'Libre Baskerville', serif; */
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Merriweather', serif;
 }
 
 header {
