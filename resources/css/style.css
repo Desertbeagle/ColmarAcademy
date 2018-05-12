@@ -694,6 +694,9 @@ Footer {
   position: relative;
   top: 8rem;
 }
+h3.herobutton {
+  height: 5rem;
+}
   .information {
     height: 55rem;
 
