@@ -220,14 +220,49 @@ background-color: rgba(115, 23, 62, 1);
   height: 3rem;
   border-radius: 5px 5px 5px 5px;
   box-shadow: .8px .8px darkgray;
+  -webkit-transition-property: background;
+  -moz-transition-property: background;
+  -o-transition-property: background;
+  transition-property: background;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  -o-transition-duration: .2s;
+  transition-duration: .2s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+
+
 
 }
+.herobutton:hover {
+  background-color: white;
+}
+
 .herobutton a {
   text-decoration: none;
   color: rgba(255, 255, 255, .9);
   font-weight: 600;
+  padding: 1.5rem 5rem;
   letter-spacing: 1.5px;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  -o-transition-duration: .2s;
+  transition-duration: .2s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
 }
+.herobutton a:hover {
+  color: black;
+}
+
 
 /* .navcontainer nav ul li {
  background: white;
@@ -758,6 +793,11 @@ Footer {
 }
 h3.herobutton {
   height: 5rem;
+
+}
+h3.herobutton a {
+  padding-left: 14rem;
+  padding-right: 14rem;
 }
   .information {
     height: 55rem;
@@ -790,11 +830,18 @@ h3.herobutton {
 
 
 }
-/* @media only screen and (max-width: 980px) {
-  header {
-    width: 85%;
+@media only screen and (max-width: 1834px) {
+  h3.herobutton a {
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
-} */
+  @media only screen and (max-width: 1599px) {
+    h3.herobutton a {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+
+}
 @media only screen and (max-width: 910px) {
   .sitecontainer {
   width: 100%;
@@ -865,6 +912,11 @@ h3.herobutton {
   margin-bottom: 0rem;
 
   min-height: 3rem;
+}
+h3.herobutton a {
+
+padding-left: 14rem;
+padding-right: 14rem;
 }
 
 /* information section */
@@ -1110,4 +1162,10 @@ Footer {
 
 
 
+}
+@media only screen and (max-width: 605px) {
+  h3.herobutton a {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
 }
