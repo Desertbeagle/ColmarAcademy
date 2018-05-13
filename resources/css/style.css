@@ -1,6 +1,5 @@
 /* Univerals and page setup */
 
-
 html {
   font-size: 16px;
   font-family: Helvetica;
@@ -112,6 +111,24 @@ nav ul li:last-child {
   border: none;
   padding-right: 1.5rem;
 }
+.navcontainer nav ul li {
+ background: white;
+ -webkit-transition-property: background;
+ -moz-transition-property: background;
+ -o-transition-property: background;
+ transition-property: background;
+ -webkit-transition-duration: .2s;
+ -moz-transition-duration: .2s;
+ -o-transition-duration: .2s;
+ transition-duration: .2s;
+ -webkit-transition-timing-function: linear;
+ -moz-transition-timing-function: linear;
+ -o-transition-timing-function: linear;
+ transition-timing-function: linear;
+}
+.navcontainer nav ul li:hover {
+ background: #bebbbb;
+}
 
 /* Hero container */
 
@@ -185,6 +202,25 @@ nav ul li:last-child {
   font-weight: 600;
   letter-spacing: 1.5px;
 }
+
+/* .navcontainer nav ul li {
+ background: white;
+ -webkit-transition-property: background;
+ -moz-transition-property: background;
+ -o-transition-property: background;
+ transition-property: background;
+ -webkit-transition-duration: .2s;
+ -moz-transition-duration: .2s;
+ -o-transition-duration: .2s;
+ transition-duration: .2s;
+ -webkit-transition-timing-function: linear;
+ -moz-transition-timing-function: linear;
+ -o-transition-timing-function: linear;
+ transition-timing-function: linear;
+}
+.navcontainer nav ul li:hover {
+ background: #bebbbb;
+} */
 
 
 /* Information Container */
