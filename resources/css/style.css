@@ -87,6 +87,8 @@ header {
 }
 
 .navcontainer a {
+  display: block;
+  padding: 1.5rem 0rem;
   text-decoration: none;
   letter-spacing: 1.5px;
   color: black;
@@ -107,12 +109,15 @@ padding-right: 0.5rem;
 padding-left: 0.5rem;
 }
 
+
+
 nav ul li:last-child {
   border: none;
   padding-right: 1.5rem;
 }
 .navcontainer nav ul li {
  background: white;
+
  -webkit-transition-property: background;
  -moz-transition-property: background;
  -o-transition-property: background;
@@ -126,8 +131,29 @@ nav ul li:last-child {
  -o-transition-timing-function: linear;
  transition-timing-function: linear;
 }
+.navcontainer nav ul li a {
+
+ -webkit-transition-property: color;
+ -moz-transition-property: color;
+ -o-transition-property: color;
+ transition-property: color;
+ -webkit-transition-duration: .2s;
+ -moz-transition-duration: .2s;
+ -o-transition-duration: .2s;
+ transition-duration: .2s;
+ -webkit-transition-timing-function: linear;
+ -moz-transition-timing-function: linear;
+ -o-transition-timing-function: linear;
+ transition-timing-function: linear;
+}
 .navcontainer nav ul li:hover {
- background: #bebbbb;
+background-color: rgba(115, 23, 62, 1);
+
+
+}
+.navcontainer a:hover {
+  color: white;
+
 }
 
 /* Hero container */
